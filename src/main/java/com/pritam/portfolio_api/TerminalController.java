@@ -7,7 +7,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/terminal")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://portfolio-frontend-vert-alpha.vercel.app") // <-- Put your ACTUAL Vercel URL here!
 public class TerminalController {
 
     // 1. Inject the Repository
